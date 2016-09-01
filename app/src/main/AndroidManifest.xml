@@ -20,6 +20,7 @@
         <activity android:name=".activities.LoginActivity"/>
         <activity android:name=".activities.ViewPagerActivity"/>
         <activity android:name=".activities.InterfaceLearning"/>
+        <activity android:name=".activities.ContactDataActivity"/>
         <activity android:name="com.facebook.FacebookActivity"
             android:configChanges=
                 "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
