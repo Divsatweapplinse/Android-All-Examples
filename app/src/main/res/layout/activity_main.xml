@@ -65,8 +65,6 @@
                 android:id="@+id/buttonEight"
                 android:text="Event Bus Activity"/>
 
-
-
         </LinearLayout>
         
     </ScrollView>

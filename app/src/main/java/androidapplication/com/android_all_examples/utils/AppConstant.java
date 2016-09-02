@@ -5,4 +5,5 @@ package androidapplication.com.android_all_examples.utils;
  */
 public class AppConstant {
     public final static String IS_LOGGED_IN = "is_logged_in";
+    public final static String TEXT = "text";
 }
