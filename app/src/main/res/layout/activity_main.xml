@@ -40,6 +40,33 @@
                 android:id="@+id/buttonFour"
                 android:text="Contact Database Activity"/>
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonFive"
+                android:text="Mileage Calculator Activity"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonSix"
+                android:text="Profile Activity"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonSeven"
+                android:text="Flat Rate Activity"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonEight"
+                android:text="Event Bus Activity"/>
+
+
+
         </LinearLayout>
         
     </ScrollView>

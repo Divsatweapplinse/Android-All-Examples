@@ -21,6 +21,10 @@
         <activity android:name=".activities.ViewPagerActivity"/>
         <activity android:name=".activities.InterfaceLearning"/>
         <activity android:name=".activities.ContactDataActivity"/>
+        <activity android:name=".activities.MileageCalculatorActivity"/>
+        <activity android:name=".activities.ProfileActivity"/>
+        <activity android:name=".activities.FlatRateActivity"/>
+        <activity android:name=".activities.EventBusActivity"/>
         <activity android:name="com.facebook.FacebookActivity"
             android:configChanges=
                 "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
