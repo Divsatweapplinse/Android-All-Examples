@@ -65,6 +65,12 @@
                 android:id="@+id/buttonEight"
                 android:text="Event Bus Activity"/>
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonNine"
+                android:text="Pager Activity"/>
+
         </LinearLayout>
         
     </ScrollView>
