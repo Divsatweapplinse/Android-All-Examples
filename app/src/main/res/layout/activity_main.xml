@@ -77,6 +77,12 @@
                 android:id="@+id/buttonTen"
                 android:text="Image Activity"/>
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonEleven"
+                android:text="Recycler View Activity"/>
+
         </LinearLayout>
         
     </ScrollView>

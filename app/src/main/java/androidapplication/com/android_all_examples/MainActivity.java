@@ -14,12 +14,13 @@ import androidapplication.com.android_all_examples.activities.InterfaceLearning;
 import androidapplication.com.android_all_examples.activities.IntroActivity;
 import androidapplication.com.android_all_examples.activities.MileageCalculatorActivity;
 import androidapplication.com.android_all_examples.activities.ProfileActivity;
+import androidapplication.com.android_all_examples.activities.RecyclerViewActivity;
 import androidapplication.com.android_all_examples.activities.SplashActivity;
 import androidapplication.com.android_all_examples.activities.ViewPagerActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button buttonOne,buttonTwo,buttonThree,buttonFour,buttonFive,buttonSix,buttonSeven,buttonEight,buttonNine,buttonTen;
+    Button buttonOne,buttonTwo,buttonThree,buttonFour,buttonFive,buttonSix,buttonSeven,buttonEight,buttonNine,buttonTen,buttonEleven;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         buttonEight = (Button)findViewById(R.id.buttonEight);
         buttonNine = (Button)findViewById(R.id.buttonNine);
         buttonTen = (Button)findViewById(R.id.buttonTen);
+        buttonEleven = (Button)findViewById(R.id.buttonEleven);
 
 
         buttonOne.setOnClickListener(new View.OnClickListener() {
@@ -115,6 +117,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, ImageSplashActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        buttonEleven.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, RecyclerViewActivity.class);
                 startActivity(intent);
 
             }
