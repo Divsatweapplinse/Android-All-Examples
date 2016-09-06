@@ -11,7 +11,7 @@ import androidapplication.com.android_all_examples.R;
 /**
  * Created by Anand on 03-09-2016.
  */
-public class IntroFragment extends Fragment {
+ public class IntroFragment extends Fragment {
 
     private static final String BACKGROUND_COLOR = "backgroundColor";
     private static final String PAGE = "page";
@@ -68,4 +68,4 @@ public class IntroFragment extends Fragment {
         View background = view.findViewById(R.id.intro_background);
         background.setBackgroundColor(mBackgroundColor);
     }
-}
+ }

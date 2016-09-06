@@ -71,6 +71,12 @@
                 android:id="@+id/buttonNine"
                 android:text="Pager Activity"/>
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonTen"
+                android:text="Image Activity"/>
+
         </LinearLayout>
         
     </ScrollView>

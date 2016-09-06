@@ -26,6 +26,10 @@
         <activity android:name=".activities.FlatRateActivity"/>
         <activity android:name=".activities.EventBusActivity"/>
         <activity android:name=".activities.IntroActivity"/>
+        <activity android:name=".activities.ImageActivity"/>
+        <activity android:name=".activities.ImageFeedDetailActivity"/>
+        <activity android:name=".activities.ImageLoginActivity"/>
+        <activity android:name=".activities.ImageSplashActivity"/>
         <activity android:name="com.facebook.FacebookActivity"
             android:configChanges=
                 "keyboard|keyboardHidden|screenLayout|screenSize|orientation"

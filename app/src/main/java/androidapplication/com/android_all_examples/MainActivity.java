@@ -9,6 +9,7 @@ import android.widget.Button;
 import androidapplication.com.android_all_examples.activities.ContactDataActivity;
 import androidapplication.com.android_all_examples.activities.EventBusActivity;
 import androidapplication.com.android_all_examples.activities.FlatRateActivity;
+import androidapplication.com.android_all_examples.activities.ImageSplashActivity;
 import androidapplication.com.android_all_examples.activities.InterfaceLearning;
 import androidapplication.com.android_all_examples.activities.IntroActivity;
 import androidapplication.com.android_all_examples.activities.MileageCalculatorActivity;
@@ -18,7 +19,7 @@ import androidapplication.com.android_all_examples.activities.ViewPagerActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button buttonOne,buttonTwo,buttonThree,buttonFour,buttonFive,buttonSix,buttonSeven,buttonEight,buttonNine;
+    Button buttonOne,buttonTwo,buttonThree,buttonFour,buttonFive,buttonSix,buttonSeven,buttonEight,buttonNine,buttonTen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         buttonSeven = (Button)findViewById(R.id.buttonSeven);
         buttonEight = (Button)findViewById(R.id.buttonEight);
         buttonNine = (Button)findViewById(R.id.buttonNine);
+        buttonTen = (Button)findViewById(R.id.buttonTen);
 
 
         buttonOne.setOnClickListener(new View.OnClickListener() {
@@ -109,5 +111,14 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        buttonTen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ImageSplashActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
     }
 }
